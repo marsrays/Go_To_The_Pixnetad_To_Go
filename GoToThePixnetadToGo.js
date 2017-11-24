@@ -35,5 +35,6 @@
 		    clearInterval(AdHunterTrigger);
 		}
     };
-	AdHunterTrigger = setInterval(pixnetAdHunter, 300);
+    pixnetAdHunter();
+    AdHunterTrigger = setInterval(pixnetAdHunter, 300);
 })();
