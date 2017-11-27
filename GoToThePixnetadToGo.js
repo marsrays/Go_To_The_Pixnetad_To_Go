@@ -29,7 +29,10 @@
             removeNode("div.hot-articles");
         /* 移除訂房訂票的廣告 */
             removeNode("div.octopus");
+            removeNode("div.hotelc-box");
             removeNode("#hotels-searchbox");
+        /* 下方浮動廣告*/
+            removeNode("div.sticky-box");
         }
         
         /* 後置載入廣告要持續追殺 */
