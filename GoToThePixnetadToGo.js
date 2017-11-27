@@ -45,5 +45,5 @@
         }
     };
     pixnetAdHunter();
-    AdHunterTrigger = setInterval(pixnetAdHunter, 300);
+    AdHunterTrigger = setInterval(pixnetAdHunter, 200);
 })();
