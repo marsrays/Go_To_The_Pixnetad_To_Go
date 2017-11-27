@@ -33,6 +33,7 @@
             removeNode("#hotels-searchbox");
         /* 下方浮動廣告*/
             removeNode("div.sticky-box");
+            removeNode("div.related-container");
         }
         
         /* 後置載入廣告要持續追殺 */
