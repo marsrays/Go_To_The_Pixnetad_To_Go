@@ -17,11 +17,15 @@
             removeNode("#ad-mib");
             removeNode("#recommend-tools");
         /* 移除全版廣告遮罩 &lt; - 這種廣告真的很機掰 */
-            removeNode("div.pop-ad-cover");
-            removeNode("#scupio_interstitialad");
-            removeNode("#scupio_interstitial");
-            removeNode("#MediaScroll");
-            removeNode("#fxMediaBox");
+            //removeNode("div.pop-ad-cover");
+            //removeNode("#scupio_interstitialad");
+            //removeNode("#scupio_interstitial");
+            //removeNode("#MediaScroll");
+            //removeNode("#fxMediaBox");
+            [].forEach.call(document.querySelectorAll("div.comment-block~div"), function(div) {
+                // do whatever
+                div.style.display = 'none';
+            });
         /* 移除文章上下的廣告*/
             removeNode("div.header-ad");
         /* 你不可能有興趣的文章 */
