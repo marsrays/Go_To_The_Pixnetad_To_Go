@@ -20,6 +20,8 @@
             removeNode("div.pop-ad-cover");
             removeNode("#scupio_interstitialad");
             removeNode("#scupio_interstitial");
+            removeNode("#MediaScroll");
+            removeNode("#fxMediaBox");
         /* 移除文章上下的廣告*/
             removeNode("div.header-ad");
         /* 你不可能有興趣的文章 */
