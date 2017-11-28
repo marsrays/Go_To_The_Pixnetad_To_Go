@@ -1,5 +1,8 @@
 (function(){
-    var css = 'div.comment-block~div { display: none; }',
+    if("mobile" !== pix.js_error_type){
+        return;
+    }
+    var css = '#main>div.header-ad, #main>div.article-body~div, #main>div.article-body>div.article-content-inner~div, div.comment-block~div { display: none; }',
     head = document.head || document.getElementsByTagName('head')[0],
     style = document.createElement('style');
     
